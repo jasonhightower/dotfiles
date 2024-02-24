@@ -1,5 +1,8 @@
+VIM="nvim"
+
 source $XDG_CONFIG_HOME/aliases.sh
 source $ZDOTDIR/completion.zsh
+
 
 # TODO JH thinkg about bringing this back 
 # fpath=($ZDOTDIR/prompt $fpath)
