@@ -3,7 +3,8 @@
 if [[ $# -eq 1 ]]; then
     selected=$1
 else
-    selected=$(find ~/work ~/personal -mindepth 1 -maxdepth 1 -type d | fzf)
+    dirs=$(find ~/work ~/personal -mindepth 1 -maxdepth 1 -type d; echo "$HOME/.dotfiles")
+    selected=$(echo -n "$dirs" | fzf)
 fi
 
 if [[ -z $selected ]]; then

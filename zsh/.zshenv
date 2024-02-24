@@ -18,4 +18,4 @@ export HISTSIZE=10000
 export SAVEHIST=10000
 
 # path
-export PATH="$XDG_CONFIG_HOME/.local/scripts:$PATH"
+export PATH="$HOME/.local/scripts:$PATH"
