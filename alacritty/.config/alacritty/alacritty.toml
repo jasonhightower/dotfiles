@@ -6,5 +6,7 @@ import = [
 TERM = "xterm-256color"
 
 [font]
-normal = { family = "JetBrainsMono Nerd Font Mono", style = "Regular"}
-size = 13
+normal = { family = "FiraMono Nerd Font Mono", style = "Regular" }
+bold = { family = "FiraMono Nerd Font Mono", style = "Bold" }
+offset = { x = 0, y = 1 }
+size = 14

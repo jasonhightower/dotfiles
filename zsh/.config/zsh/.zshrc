@@ -1,6 +1,6 @@
 VIM="nvim"
 
-source $XDG_CONFIG_HOME/aliases.sh
+source $ZDOTDIR/aliases.sh
 source $ZDOTDIR/completion.zsh
 
 
@@ -8,6 +8,8 @@ source $ZDOTDIR/completion.zsh
 # fpath=($ZDOTDIR/prompt $fpath)
 # source  $ZDOTDIR/prompt/prompt_purification_setup
 # autoload -Uz prompt_purification_setup && prompt_purification_setup
+
+bindkey -s ^f "~/.local/scripts/tmux-sessionizer\n"
 
 # cargo
 source "$HOME/.cargo/env"
