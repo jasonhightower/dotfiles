@@ -11,5 +11,8 @@ source $ZDOTDIR/completion.zsh
 
 bindkey -s ^f "~/.local/scripts/tmux-sessionizer\n"
 
+# brew
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 # cargo
 source "$HOME/.cargo/env"
